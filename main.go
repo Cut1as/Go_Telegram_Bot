@@ -10,7 +10,7 @@ import (
 
 func main() {
 	// Токен бота
-	botToken := "7611078519:AAFJeJltikMhjsp74ezKMWui7TUn_PqUaV0"
+	botToken := ""
 
 	// Создание экземпляра бота
 	bot, err := telego.NewBot(botToken, telego.WithDefaultDebugLogger())
